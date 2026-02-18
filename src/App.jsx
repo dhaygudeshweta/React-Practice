@@ -2,6 +2,7 @@
 import { useState } from "react"
 import User from "./User";
 import Skills from "./skills";
+import Inputfields from "./inputfields";
 
 //import Counter from "./Conter";
 
@@ -33,6 +34,11 @@ function App(){
 //     </div>
 
 <form action="" mehtod="get">
+
+
+  <Inputfields />
+  <br></br>
+  <br></br>
   <input type="text" value={name} onChange={(Event)=>setname(Event.target.value)} placeholder="enter name"></input>
   <br></br>
   <br></br>
